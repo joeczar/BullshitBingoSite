@@ -1,0 +1,15 @@
+#contactform {
+    width: 100%;
+}
+.contactForm label {
+    text-align: center;
+}
+#erfahreMehr {
+    margin: auto;
+}
+.contactForm input {
+    width: 100%;
+}
+#submit {
+    width: 100%;
+}

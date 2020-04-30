@@ -1,0 +1,10 @@
+#contactform {
+    width: 100%;
+}
+
+#contactForm input {
+  margin-bottom: 1rem;
+}
+#submit {
+    width: 100%;
+}
