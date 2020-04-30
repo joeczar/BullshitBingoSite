@@ -5,10 +5,11 @@
     text-align: center;
 }
 #erfahreMehr {
-    margin: auto;
+    padding-bottom: 2rem;
 }
 .contactForm input {
-    width: 100%;
+    width: 99%;
+    margin-bottom: .5rem;
 }
 #submit {
     width: 100%;
