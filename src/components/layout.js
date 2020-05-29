@@ -29,6 +29,7 @@ const Layout = ({ children }) => {
       <div
         className="layoutWrapper"
       >
+
         <main className="main">{children}</main>
         
         <footer className="footer">

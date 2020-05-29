@@ -1,0 +1,78 @@
+/* Elements */
+Link {
+    padding: 10px 0;
+}
+
+
+
+/* Class */
+.navbar {
+    width: 100%;
+    background-color:rgb(255, 51, 51);
+    color: white;
+    padding: 10px;
+    display: flex;
+    
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+
+.navbar-link {
+  font-size: 1.3em;
+
+  list-style-type: none;
+  
+  padding: 10px;
+  margin: auto;
+}
+.navbar-menu {
+    flex-direction: row;
+    flex: 1;
+    margin: auto;
+}
+.navbar-start {
+    display: flex;
+    flex: 1;
+
+}
+
+
+
+/* Media screen size */
+@media screen and (max-width: 400px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-brand {
+        width: 100%;
+        flex-direction: row;
+
+    }
+    #Bingo {
+        padding-left: 0.25em;
+    }
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 2.5rem;
+    }
+
+
+    .links {
+        height: auto;
+        display: flex;
+    }
+
+    li {
+        padding: 0 15px;
+    }
+}

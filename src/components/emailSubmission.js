@@ -36,7 +36,7 @@ export default class EmailSubmission extends React.Component {
   render() {
     return (
       <div className='formWrapper'>
-        <form class='contactForm'
+        <form className='contactForm'
           name="contact"
           method="post"
           action="/thanks/"
@@ -66,7 +66,7 @@ export default class EmailSubmission extends React.Component {
          
           <p>
             <button id='submit'
-            className='btn  dropShadow' type="submit">Send</button>
+            className='btn  shadow' type="submit">Send</button>
           </p>
         </form>
       </div>

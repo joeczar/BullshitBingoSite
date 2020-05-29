@@ -2,3 +2,45 @@
     margin-left:.5rem;
   
 }
+
+#logo {
+    max-width: 70vh;
+    padding:10px;
+    background-color: white;
+    flex:1;
+    margin:auto;
+}
+.text-box {
+    margin:2em;
+}
+.text-box p {
+    font-size: x-large;
+    line-height: 150%;
+    max-width: 20em;
+}
+#landingpage {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    
+}
+@media only screen and (max-width: 400px) {
+
+
+    #logo {
+        max-width: 90vw;
+        margin-bottom: 3em;
+    }
+    #landingpage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .text-box {
+        margin:0px;
+    }
+    .text-box p {
+        font-size: x-large;
+    }
+}
