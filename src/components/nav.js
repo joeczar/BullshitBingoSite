@@ -16,7 +16,7 @@ const Nav = () => (
   
   
     <div className="navbar-start">
-      <Link className="navbar-link" to="/about">
+      {/* <Link className="navbar-link" to="/about">
         About
       </Link>
       <Link className="navbar-link" to="/podcast">
@@ -24,8 +24,8 @@ const Nav = () => (
       </Link>
       <Link className="navbar-link" to="/contact">
         Contact
-      </Link>
-      <a className="navbar-link" href="https://www.instagram.com/bullshitbingo_podcast/">
+      </Link> */}
+      <a id="insta" className="navbar-link" href="https://www.instagram.com/bullshitbingo_podcast/">
         <FaInstagram />
       </a>
     </div>
