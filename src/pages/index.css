@@ -4,7 +4,7 @@
 
 #logo {
   width: 30em!important;
-  height: 30em;
+  height: 30em!important;
   padding: 0.5em;
   background-color: white;
   flex-shrink: 0;
@@ -27,8 +27,10 @@
 
 @media only screen and (max-width: 1000px) {
   #logo {
-    width: 90vw;
-    height: 90vw;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 90vw;
+    
     margin-bottom: 3em;
   }
   #landingpage {
@@ -36,6 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+   
   }
   .text-box {
     margin: 0px;
