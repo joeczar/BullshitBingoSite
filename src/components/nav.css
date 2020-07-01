@@ -46,9 +46,17 @@ Link {
     align-content: flex-end;
 
 }
+#social {
+    align-self: flex-end;
+    justify-self: flex-end;
+}
 #insta {
     margin: auto 1em auto auto;
 }
+#spotify {
+
+}
+
 
 
 /* Media screen size */

@@ -26,9 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        className="layoutWrapper"
-      >
+      
 
         <main className="main">{children}</main>
         
@@ -36,7 +34,7 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()}, Bullshit Bingo Podcast
           
         </footer>
-      </div>
+      
     </>
   )
 }

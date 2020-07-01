@@ -8,7 +8,6 @@ import Nav from "./nav"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      
       marginBottom: `1rem`,
     }}
   >
@@ -19,7 +18,8 @@ const Header = ({ siteTitle }) => (
         padding: `0px`,
       }}
     >
-     <Nav />
+      
+      <Nav />
     </div>
   </header>
 )

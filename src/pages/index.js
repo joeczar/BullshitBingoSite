@@ -8,9 +8,19 @@ import "./index.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div id="landingpage">
-      <img className="shadow" id="logo" src={Logo} alt="Bullshit Bingo Logo" />
-      <div className="text-box shadow">
+
+    <div id="spotifyPlayer">
+      <iframe
+        src="https://open.spotify.com/embed-podcast/show/2hsMjrFOaPRMYFsSF3AKYK"
+        width="100%"
+        height="232"
+        frameborder="0"
+        allowtransparency="true"
+        allow="encrypted-media"
+      ></iframe>
+    </div>
+    <div className="text-box shadow">
+      <div className="txtWrapper">
         <h1>Bullshit Bingo</h1>
         <h2>der Podcast</h2>
         <p>
@@ -21,6 +31,7 @@ const IndexPage = () => (
           umgehen oder es besser machen kann.
         </p>
       </div>
+      <img className="" id="logo" src={Logo} alt="Bullshit Bingo Logo" />
     </div>
   </Layout>
 )

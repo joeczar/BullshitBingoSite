@@ -1,36 +1,53 @@
-#emailInput {
-  margin-left: 0.5rem;
-}
+
+
 
 #logo {
-  width: 30em!important;
-  height: 30em!important;
+  max-width: 20em;
+  max-height: 20em;
   padding: 0.5em;
   background-color: white;
-  flex-shrink: 0;
-  margin: 1em auto ;
+  /* grid-area: logo; */
+  /* align-self: start!important; */
+  justify-self: center;
+  align-self: center;
+  width: 50%;
+}
+.text-box .txtWrapper {
+  width: 50%;
 }
 .text-box {
-  margin: 1em 2em;
+  margin: 0;
+  grid-area: textBox;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
 }
+
 .text-box p {
   font-size: x-large;
   line-height: 150%;
-  max-width: 20em;
 }
-#landingpage {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 100%;
+#spotifyPlayer {
+  grid-area: player;
   
+  
+}
+main {
+  margin: auto;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "player player player player player player"
+    " textBox textBox textBox textBox textBox textBox"
+    " textBox textBox textBox textBox textBox textBox";
+  column-gap: 1em;
 }
 
 @media only screen and (max-width: 1000px) {
   #logo {
-    min-width: 300px;
-    min-height: 300px;
-    max-width: 90vw;
-    max-height: 90vw;
+    width: 100%;
     margin-bottom: 3em;
   }
   #landingpage {
@@ -42,7 +59,12 @@
   }
   .text-box {
     margin: 0px;
+    flex-direction: column;
+    justify-content: space-around;
   }
+  .text-box .txtWrapper {
+  width: 100%;
+}
   .text-box p {
     font-size: x-large;
   }
