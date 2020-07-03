@@ -1,4 +1,9 @@
 header {
-  border-bottom: 0.5rem white solid;
-  background-color:rgb(255, 51, 51);
+  /* border-bottom: 1px black solid; */
+  /* background-color:rgb(255, 51, 51); */
+  background-color: #fff;
+  /* background-color: black; */
+  color: black;
+  color: white;
 }
+

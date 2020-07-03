@@ -10,7 +10,7 @@ const Nav = () => (
     <div className="navbar-brand">
       <Link className="navbar-item" to="/">
         <h1 className="logo">
-          <span id="BS">Bullshit</span> <span id="Bingo">Bingo</span>
+          <span id="BS">Bullshit</span><span id="Bingo">Bingo</span>
         </h1>
       </Link>
     </div>

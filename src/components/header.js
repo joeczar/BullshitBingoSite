@@ -7,6 +7,7 @@ import Nav from "./nav"
 
 const Header = ({ siteTitle }) => (
   <header
+    className="shadow"
     style={{
       marginBottom: `1rem`,
     }}
@@ -18,7 +19,6 @@ const Header = ({ siteTitle }) => (
         padding: `0px`,
       }}
     >
-      
       <Nav />
     </div>
   </header>

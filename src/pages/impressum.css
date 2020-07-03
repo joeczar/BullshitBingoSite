@@ -1,0 +1,8 @@
+#impressumBody .text-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#impressumBody p {
+    font-size: medium;
+}
